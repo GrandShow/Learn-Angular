@@ -1,0 +1,109 @@
+<div class="container-fluid bgimgStyle">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark pl-0">
+        <a class="navbar-brand pl-5" href="#">Вітаємо Вас "ім'я"</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse w-60 order-3 dual-collapse2" id="menu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Предмет
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right text-right" aria-labelledby="navbarDropdown" style="font-size: 1em">
+                        <a class="dropdown-item" href="#">Лінійна алгебра</a>
+                        <a class="dropdown-item" href="#">Диф.рівняння</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+<!--1-st menu-->
+
+    <div class="row w-100 pl-5 mt-3" style="height: 90%">
+        <div class="col-10 col-lg-10 offset-1 offset-lg-0 my-auto">
+            <div class="row">
+
+                <div class="col-6 col-md-3 col-lg-2 btn-group mb-3">
+                    <button class="btn btn-secondary btn-lg dropdown-toggle btnStyle" id="dropdownMenu" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Рік
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+                        <button class="dropdown-item" type="button">2017</button>
+                        <button class="dropdown-item" type="button">2018</button>
+                        <button class="dropdown-item" type="button">2019</button>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2 btn-group mb-3">
+                    <button class="btn btn-secondary btn-lg dropdown-toggle btnStyle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Курс
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <button class="dropdown-item" type="button">1</button>
+                        <button class="dropdown-item" type="button">2</button>
+                        <button class="dropdown-item" type="button">3</button>
+                        <button class="dropdown-item" type="button">4</button>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2 btn-group mb-3">
+                    <button class="btn btn-secondary btn-lg dropdown-toggle btnStyle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Група
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                        <button class="dropdown-item" type="button">ІПЗ</button>
+                        <button class="dropdown-item" type="button">МІВТ-ЕТ</button>
+                        <button class="dropdown-item" type="button">ЕП</button>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2 btn-group mb-3">
+                    <button class="btn btn-secondary btn-lg btnStyle" type="button">
+                        Студенти
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-md-3 col-lg-2 mb-3"><input type="date" class="form-control" id="date"/></div>
+                <div class="col-6 col-md-3 col-lg-2 mb-3"><input type="number" class="form-control" id="minb" placeholder="Мін. бал"/></div>
+                <div class="col-6 col-md-3 col-lg-2 mb-3"><input type="number" class="form-control" id="maxb" placeholder="Макс. бал"/></div>
+                <div class="col-6 col-md-3 col-lg-2 mb-3 tbtn"><button type="button" class="btn btn-danger btn-lg">Відправити</button></div>
+            </div>
+
+<!--2-nd menu-->
+
+            <div class="row mt-5">
+                <div class="col-12 col-md-6 mb-3"><input type="text" class="form-control" id="homework" placeholder="Домашнє завдання" style="height: 200px"/></div>
+                <div class="col-12 col-md-4 col-lg-2 px-0">
+                    <div class="col-6 col-md-12 btn-group mb-3">
+                        <button class="btn btn-secondary btn-lg dropdown-toggle btnStyle" type="button" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Курс
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu4">
+                            <button class="dropdown-item" type="button">1</button>
+                            <button class="dropdown-item" type="button">2</button>
+                            <button class="dropdown-item" type="button">3</button>
+                            <button class="dropdown-item" type="button">4</button>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-12 btn-group mb-3">
+                        <button class="btn btn-secondary btn-lg dropdown-toggle btnStyle" type="button" id="dropdownMenu5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Група
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu5">
+                            <button class="dropdown-item" type="button">ІПЗ</button>
+                            <button class="dropdown-item" type="button">МІВТ-ЕТ</button>
+                            <button class="dropdown-item" type="button">ЕП</button>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-12 mb-3" style="float:left"><input type="date" class="form-control" id="date2"/></div>
+                    <div class="col-6 col-md-12 mb-3" style="float:left"><button type="button" class="btn btn-danger btn-lg tbtn">Відправити</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

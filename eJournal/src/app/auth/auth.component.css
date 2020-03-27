@@ -1,0 +1,39 @@
+.bgimg {
+    background: url("../../assets/img/bgsignin.svg") no-repeat center top fixed;
+    background-size: cover;
+    box-shadow: inset 0 0 50px #000;
+    width: 100%;
+    height: 100%;
+}
+.authStyle {
+    background-color: rgba(51, 51, 51, 0.7);
+    border: 1px solid #000;
+    position: fixed;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding-top: 15px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+.authCenter {
+    background-color: rgba(175, 24, 46, 0.9); 
+    padding: 20px; 
+    border-radius: 10px; 
+    border: 1px solid #000;
+}
+.imgCenter {
+    width: 50%;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+.inpStyle {
+    width:100%; 
+    text-align:center;
+    margin-top: 10px;
+}
+.btnStyle {
+    width: 100%;
+    color: white;
+    text-decoration: underline;
+}

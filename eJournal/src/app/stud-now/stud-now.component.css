@@ -1,0 +1,19 @@
+.tomorrowstyle {
+    float: left; 
+    background-color: #343a40;
+    font-size: 0.81em; 
+    color: white; 
+    padding-bottom: 3px;
+    padding-top: 2px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    border-radius: 10px;
+}
+.dateinput {
+    float: left;
+    font-size: 0.8em; 
+    margin-left: 10px; 
+    margin-bottom: 4px;
+    border-radius: 10px; 
+    border: 2px solid #343a40;
+}
